@@ -1,0 +1,153 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px
+}
+
+.name {
+    /* font-family: 'Ruslan Display'; */
+    /* font-family: 'Abril Fatface'; */
+    /* font-family: 'Alfa Slab One'; */
+    /* font-family: 'Chonburi'; */
+    /* font-family: 'Libre Bodoni'; */
+    /* font-family: 'Rakkas'; */
+    /* font-family: 'Ruslan Display'; */
+    font-size: 64px;
+    /* font-size: 110px; */
+    line-height: 1;
+    margin-bottom: 10px;
+    /* width: 300px; */
+    /* height: 300px; */
+    /* overflow-wrap: break-word; */
+    border: black;
+    /* outline-style: solid;
+    outline-width: 1px; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    /* padding: 10px; */
+}
+
+a {
+/* color:#000000; */
+text-decoration: none;
+/* font-weight: bold; */
+/* font-style: italic ; */
+/* color:steelblue */
+/* color: #5F5A5A */
+color: #D63518
+/* color: #B03D33 */
+/* color: #00539b */
+}
+
+a:hover{
+/* color: #00539b  */
+color: #4F4747
+/* color: #407E99 */
+/* color: #B03D33 */
+/* color: #414042 */
+/* color:blue
+ */
+}
+
+
+.sidenav {
+height: 90%;
+/* height: 100%; */
+width: 300px;
+
+padding: 10px;
+margin: 10px;
+position: fixed;
+/* z-index: 1; */
+/* top: 0; */
+/* left: 0; */
+/* background-color: rgb(255, 255, 255); */
+/* overflow-x: hidden; */
+/* padding-top: 0px; */
+outline-style: solid;
+outline-width: 1px;
+overflow-wrap: break-word;
+/* font-family: 'Albert Sans';  */
+box-shadow: 5px 5px #5F5A5A;
+}
+    
+.sidenav a {
+/* padding: 6px 8px 6px 16px; */
+text-decoration: none;
+/* font-size: 14px; */
+/* color: #000000; */
+display: block;
+}
+
+.dropdown {
+    position: relative;
+    padding: 2px;
+    /* padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none; */
+}
+
+.dropdown-content {
+    /* transition: all 5s; */
+    display: none;
+    /* position: absolute; */
+    /* font-size: 6px; */
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    padding-left: 25px;
+}
+
+.down_arrow {
+    display: none;
+}
+
+.right_arrow {
+    display: inline;
+}
+
+
+.dropdown:hover .down_arrow {
+
+    /* transform: rotate(360deg); */
+    display: inline;
+}
+
+.arrow {
+    font-size: 16px !important;
+    /* padding-top: 10px; */
+    /* color: red; */
+}
+
+.dropdown:hover .arrow {
+    /* transition: transform 0.25s; */
+    transform: rotate(90deg);
+}
+
+
+.dropdown:hover .right_arrow {
+    /* transform: rotate(90deg); */
+    display: none;
+}
+
+/* .name_line {
+    padding: 5px;
+} */
+
+.main {
+padding: 10px;
+margin: 10px;
+margin-left: 350px; /* Same as the width of the sidenav */
+/* outline-style: solid;
+outline-width: 1px; */
+/* position: fixed; */
+}
