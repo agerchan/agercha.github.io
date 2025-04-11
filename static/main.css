@@ -193,3 +193,7 @@ outline-width: 1px; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.title {
+    font-weight: bolder;
+}
